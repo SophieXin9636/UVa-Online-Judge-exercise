@@ -18,4 +18,5 @@
 * Total Time Complexity：**O(NlogN)**
 * Total Space Complexity：**O(N^2*logN)**
 
-## [POJ: Peking University(PKU) Online Judge](http://poj.org/)
+## Factorial
+* UVa 623 568 10220 10323

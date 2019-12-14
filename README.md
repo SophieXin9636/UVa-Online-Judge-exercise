@@ -1,8 +1,17 @@
 # UVa-OJ-Writeup
 [UVa Online Judge](https://uva.onlinejudge.org)
 
-## 20190819 Submit
-### UVa#623 500!
+## 2019/12/14
+### UVa# 1644 Prime Gap
+* 建立composite table
+ * 若是質數(if c[n] == false)則直接印0
+ * 若是合數(composite)，則將該值作為composite table 的 index 指針，
+  * 指針分別為 b (負責遞減)、 a (負責遞增)
+  * 若 c[b] 及 c[a] 為 false，則找到 質數，停止迴圈
+  * a-b 即兩個質數的區間大小，就是答案
+
+## 2019/08/19 Submit
+### UVa# 623 500!
 * 類似題目：UVa# 10220 - I Love Big Numbers !
 * Strategy：Dynamic Programming
 * 目的：減少重複計算、處理數字較大的問題

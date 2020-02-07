@@ -1,6 +1,13 @@
 # UVa-OJ-Writeup
 [UVa Online Judge](https://uva.onlinejudge.org)
 
+## 2019/02/07
+### UVa# 122 Trees on travel
+* 資料結構：binary tree
+* 演算法：BFS
+* 簡單來說就是 BFS的變形，同時判斷他是否為沒有斷掉的binary
+* 如果拜訪到的數字與當初輸入的值不符合，則印出 not complete
+
 ## 2019/12/14
 ### UVa# 1644 Prime Gap
 * 建立composite table

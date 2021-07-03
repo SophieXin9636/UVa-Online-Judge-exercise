@@ -1,0 +1,1 @@
+每個 edge cost 為 1，使用 Floyd-Warshall algorithm，求出任兩點的最短路徑長

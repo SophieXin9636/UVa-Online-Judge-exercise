@@ -1,0 +1,1 @@
+使用 Super Catalan Number 以及 Catalan Number 公式，使用 long long 宣告並迭代出  0~26 區間的值，最後相減即為答案。

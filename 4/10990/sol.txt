@@ -1,0 +1,1 @@
+建立含有 euler值 和 深度的 struct 資料型態，並且在建表中先計算 euler值之後，在遍歷每個 index 的 euler 值，往下追蹤直到 euler 值為 1 為止，以計算深度。

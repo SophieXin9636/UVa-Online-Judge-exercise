@@ -1,0 +1,6 @@
+建立composite table
+若是質數(if c[n] == false)則直接印0
+若是合數(composite)，則將該值作為composite table 的 index 指針，
+指針分別為 b (負責遞減)、 a (負責遞增)
+若 c[b] 及 c[a] 為 false，則找到 質數，停止迴圈
+a-b 即兩個質數的區間大小，就是答案

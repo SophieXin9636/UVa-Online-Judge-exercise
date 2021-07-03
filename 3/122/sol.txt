@@ -1,0 +1,9 @@
+* 題目說明：
+輸入是一個樹的所有節點和位置，
+並輸出 BFS 的遍歷結果，
+若判斷並非 binary tree(e.g. 節點沒有完全連接或斷掉)，
+則輸出 not complete
+
+* 解法：
+在每個輸入的 Node 設立是否存在的 exist flag，每輸入一個新的節點，並在該節點位置設成 true 表示存在，直到 () 結束一個回合之後，使用 BFS 檢查其 exist flag 是否符合 binary tree，若不符合，則輸出 not complete.
+若發生輸入節點位置重複之情況，則同樣輸出 not complete.

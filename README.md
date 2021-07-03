@@ -1,7 +1,39 @@
 # UVa-OJ-Writeup
 [UVa Online Judge](https://uva.onlinejudge.org)
 
-## 2019/02/07
+## 2021/7/3
+
+新增1~4星題目
+
+1星多為裸題，2星需要一點點跳脫的思維，3星會需要有演算法的概念，4星會比三星難一些，甚至需要特殊解法
+
+* Dynamic Programming:
+  * 3★：10482、10664、10739、10912、11026、12034
+  * 4★：147
+* 質數表、質因數分解 (Prime Factorization)
+  * 2★：1644
+  * 3★：10539、10856、11353
+  * 4★：11099
+* 大數
+  * 2★：10220、10924
+  * 3★：10433
+* 貪婪法則 (Greedy Method)
+  * 2★：11264
+  * 3★：11330
+* BFS
+  * 3★：122
+* 圖論 Graph
+  * Floyd-Warshall algorithm
+    * 3★：10048、10099、11463
+* 數學題
+  * 4★：10396、10990
+* 特殊解法
+  * 3★：10312 (Super Catalan Number 以及 Catalan Number 特殊公式)
+
+
+
+## 2020/02/07
+
 ### UVa# 122 Trees on travel
 * 資料結構：binary tree
 * 演算法：BFS

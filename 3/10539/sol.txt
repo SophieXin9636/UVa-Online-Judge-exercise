@@ -1,0 +1,1 @@
+建立質數表後，建立almost Prime Number 表，但直接建表會爆掉，因此只儲存 APN值，並使用二分搜尋回傳其index，然後用 index 的方式去計算個數。

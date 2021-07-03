@@ -57,6 +57,5 @@ int main(){
 		if(b[i].num != 0)
 			printf("%c %d\n", b[i].letter, b[i].num);
 	}
-
 	return 0;
 }

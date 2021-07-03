@@ -1,0 +1,2 @@
+大數乘法，由個位數開始向前計算，若mismatch就break，若有match就一直做下去直到完全match為止。
+將大數以字串型態輸入，並將其reverse從個位數計算，每迭代完一輪計算就比較目前該位數是否相同，若完全相同即為 Automorphic number
